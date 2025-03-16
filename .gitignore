@@ -1,0 +1,39 @@
+# Xcode project files that should NOT be tracked
+RocketLaunchTrackerV2.xcworkspace/
+RocketLaunchTrackerV2.xcodeproj/project.xcworkspace/
+RocketLaunchTrackerV2.xcodeproj/xcuserdata/
+RocketLaunchTrackerV2.xcodeproj/xcshareddata/
+RocketLaunchTrackerV2.xcodeproj/project.xcworkspace/
+RocketLaunchTrackerV2.xcodeproj/project.pbxproj
+
+# Swift Package Manager (SPM) build artifacts
+.swiftpm/
+.build/
+DerivedData/
+SourcePackages/
+
+# CocoaPods files (if applicable)
+Pods/
+Podfile.lock
+
+# Carthage files (if applicable)
+Carthage/
+
+# Ignore build output
+*.app
+*.ipa
+*.dSYM.zip
+*.dSYM
+*.xcarchive/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore user-specific settings
+.DS_Store
+*.swp
+*.swo
+*.swn
+*.xcscmblueprint
+*.xcuserstate
